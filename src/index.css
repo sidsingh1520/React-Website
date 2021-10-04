@@ -1,0 +1,253 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: #393c41;
+  margin:0;
+  padding:0;
+}
+
+body{
+  width:100%;
+  background-color: black;
+  padding:0 20px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.logo{
+  height:70px;
+  width:200px;
+  padding-bottom: 5px;
+}
+.Header{
+  min-height:70px;
+  display:flex;
+  align-items:center;
+  padding:0 10px;
+  top:0;
+  left:0;
+  right:0;
+  background:#212121;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  flex-wrap: wrap;
+}
+.Menu{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex:1;
+}
+.Menu a{
+  font-weight:600;
+  text-transform:uppercase;
+  padding:0 10px;
+  flex-wrap:nowrap;
+  color:white;
+}
+.RightMenu{
+  display:flex;
+  flex:0.5;
+  align-items:center;
+  justify-content:center;
+}
+.RightMenu a{
+  font-weight:600;
+  text-transform:uppercase;
+  padding:0 10px;
+  color:white;
+}
+.RightMenu .Button{
+  width: 113px;
+  height: 36px;
+  background: #FF2E00;
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+  border-radius: 17px;
+  color:white;
+  align-items:center;
+  display:flex;
+  justify-content:center;
+  margin:0 20px;
+  cursor:pointer;
+}
+.Container{
+  display:flex;
+  background:#000000;
+  width:100%;
+  justify-content:space-between;
+  height:auto;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Container .LeftContainer{
+  display:flex;
+  height: auto;
+  flex-direction:column;
+  align-items: flex-start;
+  color:white;
+  padding-left:5%;
+}
+.Container .LeftContainer h2{
+  color:white;
+  font-weight:300;
+  font-size:48px;
+  line-height: 70px;
+}
+.Container .LeftContainer h4{
+  color:white;
+  font-weight:300;
+  font-size:24px;
+  line-height: 40px;
+}
+.Container .LeftContainer .Button{
+  width: 143px;
+  height: 44px;
+  margin-top: 25px;
+  background: #FF2E00;
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+  color:white;
+  align-items:center;
+  display:flex;
+  justify-content:center;
+  cursor:pointer;
+}
+.Container .RightContainer .responsive{
+    width: 100%;
+    height: auto;
+}
+.Courses{
+  background-color:#212121;
+  width:100%;
+  height:auto;
+  padding:5% 5%;
+  margin-top: 5%;
+}
+.Courses .Heading1{
+  width:fit-content;
+}
+.Courses .Heading1 h2{
+  color:white;
+  font-weight:600;
+  font-size:42px;
+}
+.Courses h3{
+  color:white;
+  font-weight:normal;
+  text-transform: capitalize;
+  margin: 10px 0;
+}
+.Line{
+  height:3px;
+  width:100%;
+  background-color: #FF2E00;
+
+}
+.CardContainer{
+  width:100%;
+  background-color: #212121;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* codepen */
+
+.card img {
+  height: 200px;
+  width:200px;
+
+}
+
+.btn {
+color: white;
+padding: 0.8rem;
+font-size: 14px;
+text-transform: uppercase;
+border-radius: 4px;
+font-weight: 400;
+cursor: pointer;
+border: 1px solid rgba(255, 255, 255, 0.2);
+background: #FF2E00;
+}
+
+.btn:hover {
+background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.cards_item {
+display: flex;
+padding: 1rem;
+}
+.card_image{
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 40rem) {
+.cards_item {
+  width: 50%;
+}
+}
+
+@media (min-width: 56rem) {
+.cards_item {
+  width: 33.3333%;
+}
+}
+
+.card {
+background-color: #000000;
+border-radius: 0.25rem;
+box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+display: flex;
+flex-direction: column;
+overflow: hidden;
+height:auto;
+width:300px;
+padding: 10px;
+}
+
+.card_content {
+padding: 1rem;
+background: #000000;
+text-align: start;
+}
+
+.card_title {
+color: #ffffff;
+font-size: 1.1rem;
+font-weight: 700;
+letter-spacing: 1px;
+text-transform: capitalize;
+margin: 0px;
+
+}
+
+.card_text {
+color: #ffffff;
+font-size: 0.875rem;
+line-height: 1.5;
+margin-bottom: 1.25rem;    
+font-weight: 400;
+
+}
+.bottom_card{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content:space-between;
+}
